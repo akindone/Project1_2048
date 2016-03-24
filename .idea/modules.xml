@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Project1_2048.iml" filepath="$PROJECT_DIR$/Project1_2048.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_app/demo_app.iml" filepath="$PROJECT_DIR$/demo_app/demo_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/game_puzzle/game_puzzle.iml" filepath="$PROJECT_DIR$/game_puzzle/game_puzzle.iml" />
+    </modules>
+  </component>
+</project>

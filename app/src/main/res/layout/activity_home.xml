@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".myGame.Home">
+    <!--part 1-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView style="@style/home_target"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_home_target"/>
+        <LinearLayout style="@style/home_part1_ll"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="得分"/>
+            <TextView style="@style/home_head_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_home_score"/>
+        </LinearLayout>
+        <LinearLayout style="@style/home_part1_ll"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="历史最高"/>
+            <TextView style="@style/home_head_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_home_highestscore"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--part 2-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rl_home_content"/>
+    <!--part 3-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button style="@style/home_button"
+            android:id="@+id/bt_home_revert"
+            android:text="回退"/>
+        <Button style="@style/home_button"
+            android:id="@+id/bt_home_restart"
+            android:text="重新开始"/>
+        <Button style="@style/home_button"
+            android:id="@+id/bt_home_option"
+            android:text="选项"/>
+    </LinearLayout>
+
+
+</LinearLayout>
